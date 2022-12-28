@@ -1,4 +1,4 @@
 import React from "react";
-import { Card } from "../Card/Card";
+import { CardsGrid } from "../CardsGrid/CardsGrid";
 
-export const App: React.FC = () => <Card title="some text" />;
+export const App: React.FC = () => <CardsGrid />;
